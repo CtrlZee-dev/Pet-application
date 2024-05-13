@@ -1,0 +1,133 @@
+body{
+    background-color:#e63b65; 
+    justify-content: center;
+
+}
+/*
+Laptop screenn width: 1920px height: 1080px
+
+*/
+.container{
+    background-color:whitesmoke;
+    width: 800px;
+    border-radius: 5px;
+    margin-left: 165px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: "Poppins", sans-serif;
+    color: #292d3c;
+    
+  
+}
+.header-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+/*
+Setting the width of an element to 100% means that the element will take up 100% of the width of its containing element. 
+In this case, the <img> element is set to have a width of 100% within its parent container, 
+which is the .header-info div.
+
+This is a common technique used to make images responsive within their containers,
+ ensuring they adapt to different screen sizes and maintain their aspect ratio.
+  color:#33384a;
+
+*/
+
+.header-info > img {
+    width: 100%; /* Set the width to 100% */
+    height: auto;
+   
+}
+h1,h2{
+    font-family: "Poppins", sans-serif;
+    color:#33384a;
+  
+}
+
+.pet,.submitBtn-container{
+    margin-left: 20px ;
+    margin-right: 15px ;
+}
+.pet-details,label{
+    display: flex;
+    margin-bottom: 0px;
+}
+.pet-details{
+    margin-top: 0px;
+    flex-direction: column;
+}
+input{
+    width: 300px;
+}
+
+
+
+.applicant,.sublabels,.contact-details,.veternarian-details{
+    width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+
+
+.sublabels> div>label{
+    font-size:12px;
+}
+.contact-details,.stayIn>div,.haveFence>div,.otherPets>div,
+.gender>div,.usedOtherPets>div,.haveVet>div{
+ padding: 0;
+    font-size: 90%;
+
+    
+}
+
+
+
+input[type="radio"] {
+    padding: 0;
+    margin: 0;
+    width: fit-content;
+  
+
+     /* Adjust the width as needed */
+}
+input[type="text"],[type="tel"],[type="number"] {
+    padding: 0;
+    margin: 0;
+  height: 25px;
+}
+input[type="submit"]{
+
+    border-radius: 8px;
+  height: 40px;
+}
+
+.submitBtn-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+

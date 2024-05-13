@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html leng="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pet Application</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <style>
+         
+
+
+        </style>
+
+    </head>
+
+    <body>
+        <form>
+           <div class="container">
+                <div class="header-info">
+                    <img src="./images/pet rescue.png" width="480" />
+                    <h1> Pet Rescue Adoption Application Form</h1>
+                </div>
+
+                <div class="pet pet-details">
+                    <label for="petName">Name of the Pet </label> 
+                    <input type="text" id="petName" name="petName" placeholder="Pappi"> 
+                </div> 
+
+              <div class="pet applicant-details">
+                    <h2> Applicant Details  </h2>
+                    <div class="applicant">
+                        <div>
+                            <label for="fname">First Name: </label>
+                            <input type="text" id="fname" name="fname"  placeholder="Zizipho"> 
+                        </div>
+
+
+                        <div>
+                            <label for="lname">Last Name: </label>
+                            <input type="text" id="lname" name="lname" placeholder="Kakaza"> 
+                        </div>   
+                   </div>
+
+            
+                        <div> 
+                                <label for="age">Age </label>
+                                <input type="text" id="age" name="age" placeholder="23">
+                        </div><br/>
+
+                
+                   
+                        <div class="address-details">
+                            <label for="address">Address</label>
+                            <div class="sublabels">
+                                <div>
+                                    <input type="text" id="addressLine1" name="addressLine1" placeholder="23 Canter Way">
+                                    <label for="addressLine1">Street Address</label> 
+                                </div>
+                                
+                                
+                                <div>
+                                    <input type="text" id="addressLine2" name="addressLine2" placeholder="Parow">
+                                    <label for="addressLine2">Street Address line 2</label>
+                                </div>
+
+                                <div>
+                                    <input type="text" id="city" name="city" placeholder="Cape Town">
+                                    <label for="city">City</label>
+                                  
+                                </div>
+
+                                <div>
+                                    <input type="text" id="state" name="state" placeholder="Western Cape">
+                                    <label for="state">State/Province </label>
+                                </div>
+
+                                <div>
+                                    <input type="text" id="zip-code" name="zip-code" placeholder="7780">
+                                    <label for="zip-code">Postal/Zip Code</label>
+                                  
+                                </div>
+                                
+                            </div>
+                       </div><br/>
+                    
+
+                
+
+                   <div class="contact-details">
+                        <div>
+                            <label for="cellNum">Phone Number (mobile): </label>
+                            <input type="tel" id="cellNum" name="cellNum" placeholder="072 882 9470">
+                        </div>
+                            
+
+                        <div>
+                            <label for="workNum">Phone Number(work): </label>
+                            <input type="tel" id="workNum" name="workNum" placeholder="Kakaza">   <br/>
+                        </div>
+
+                       
+
+                        <div>
+                            <label for="homeNum">Phone Number(home): </label>
+                            <input type="tel" id="homeNum" name="homeNum" placeholder="23"> 
+                        </div>
+                        
+                        <div>
+                                <label for="email">Email: </label>
+                                <input type="text" id="email" name="email" placeholder="ziziphokakaza09@gmail.com">
+                        </div>
+                   </div> <br/>
+
+                    <div class="stayIn">
+
+                        <label for="title" >I / We live in a: </label>  <br/>
+                        <div>
+                            <label for="single-family-home" >Single Family home</label>
+                            <input type="radio" id="single-family-home" name="StayIn"  value="Single-family-home">
+
+                            <label for="duplex-Twin" >Duplex/Twin</label>
+                            <input type="radio" id="duplex-Twin" name="StayIn" value="Duplex-Twin">
+
+                            <label for="condo-TownHouse" >Condo/TownHouse</label>
+                            <input type="radio" id="condo-TownHouse" name="StayIn" value="Condo-TownHouse">
+
+                            <label for="trailer" >Trailer</label>
+                            <input type="radio" id="trailer" name="StayIn" value="Trailer">
+
+                            <label for="apartment" >Apartment</label>
+                        <input type="radio" id="apartment" name="StayIn" value="Apartment">
+
+
+                        </div>
+                       
+
+                        
+                    
+                    </div> <br/>
+
+                    <div class=" haveFence">
+                        <label for="title" >Do you have a fence in your yard?</label>
+                        <div>
+                            <label for="fenceInYes" >Yes</label>
+                            <input type="radio" id="fenceInYes" name="fenceIn" value="Yes">
+    
+                            <label for="fenceInNo" >No</label>
+                            <input type="radio" id="fenceInNo" name="fenceIn" value="No">
+
+                        </div>
+
+                     
+                    
+                    </div> <br/>
+
+                    <div class=" fenceHeight">
+
+                        <label for="fenceHeight" >How high is your fence ?</label>
+                        
+                        <input type="text" id="fenceHeight" name="fenceHeight">
+                    
+                    </div> <br/>
+
+                    <div class=" otherPets">
+                        <label for="title" >Do you have other pets?</label>
+                        <div>
+
+                            <label for="otherPetsYes" >Yes</label>
+                            <input type="radio" id="otherPetsYes" name="otherPets" value="Yes">
+    
+                            <label for="otherPetsNo" > No</label>
+                            <input type="radio" id="otherPetsNo" name="otherPets" value="No">
+                        </div>
+
+                    
+                    </div> <br/>
+
+                    <div class=" gender">
+                        <label for="title" >Is your pet Male or female?</label>
+                        <div>
+                            <label for="Female" >Female</label>
+                            <input type="radio" id="Female" name="Gender" value="Female">
+    
+                            <label for="Male" >Male</label>
+                            <input type="radio" id="Male" name="Gender" value="Male">
+
+                        </div>
+
+                    
+                    
+                    </div> <br/>
+
+                    <div class=" usedOtherPets">
+                        <label for="title" >Is your pet used to other pets ?</label>
+                        <div>
+                            <label for="Yes" >Yes</label>
+                            <input type="radio" id="Yes" name="usedOtherPets" value="Yes">
+    
+                            <label for="No" > No</label>
+                            <input type="radio" id="No" name="usedOtherPets" value="No">
+                        
+
+                        </div>
+
+                   
+                    
+                    </div> <br/>
+
+                   
+                    <div class="stayOut">
+                        <label for="stayOut" >Where does the pet stay (be confined) while you are out?</label>
+                        <input type="text" id="stayOut" name="stayOut">
+
+                    
+                    </div> <br/>
+
+                    <div class="haveVet">
+                        <label for="title" >Do you have a regular Veternarian ?</label>
+                        <div>
+                            <label for="vetYes" >Yes</label>
+                            <input type="radio" id="vetYes" name="haveVet" value="Yes">
+    
+                            <label for="vetNo" >No</label>
+                            <input type="radio" id="vetNo" name="haveVet" value="No"> 
+                        
+
+                        </div>
+                  
+                    </div> <br/>
+
+                    <div class="veternarian-details">
+                        <div>
+                            <label for="veternarianName">Veternarian Name: </label>
+                            <input type="text" id="veternarianName" name="veternarianName" placeholder="Dr sazy pants"> 
+
+                        </div>
+                    
+                        <div>
+                            <label for="clinicName">Clinic Name: </label>
+                            <input type="text" id="clinicName" name="clinicName" placeholder="MEEESs">   
+                        </div>
+
+                        <div>
+                            <label for="veternarianNum">Clinic Number: </label>
+                            <input type="tel" id="veternarianNum" name="veternarianNum" placeholder="078 376 3234"> 
+                        </div>
+                        
+                  
+                    </div><br/>
+
+                    
+                    <div class="hoursAlone">
+                        <label for="pet hoursAlone">Number of hours (average) pet(s) spends alone?</label>
+                        <input type="number" id="hoursAlone" name="hoursAlone" placeholder="8" size="40"> 
+
+                    </div>  
+               </div>
+
+               <div class="submitBtn-container">
+                <input type="submit" name="submit">
+            </div>
+
+
+            </div>
+            
+    
+
+    
+           
+
+
+        </div>
+       
+      
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+
+    </body>
+</html>
